@@ -24,15 +24,13 @@ imageElement.setAttribute("alt", `Profile Name ${fullName}`);
 
 /* Step 5 - Array */
 var favoriteFoods = ["Potato", "Rice", "Afan soup", "Ogbono soup"];
+foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
 
-var newFavoriteFood = "Ice Cream";
+var newFavoriteFood = ["Ice Cream"];
 favoriteFoods.push(newFavoriteFood);
-
-foodElement.innerHTML += `<br>${newFavoriteFood}`;
+foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
 favoriteFoods.shift();
+foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
+favoriteFoods.pop()
+foodElement.innerHTML += `<br>${favoriteFoods.join(", ")}`;
 
-foodElement.innerHTML += favoriteFoods.join("<br>");
-
-favoriteFoods.pop();
-
-foodElement.innerHTML += favoriteFoods.join("<br>");
