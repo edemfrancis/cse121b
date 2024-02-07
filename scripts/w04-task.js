@@ -54,7 +54,7 @@ li.textContent = newElement
 document.getElementById("favorite-foods").appendChild(li);*/
 /* Hobbies List */
 myProfile.hobbies.forEach(items => {
-    let ulElement = document.createElement("ul");
+    let ulElement = document.createElement("li");
     ulElement.textContent = items
     document.getElementById("hobbies").appendChild(ulElement)
 })
