@@ -14,6 +14,7 @@ body{
     background: linear-gradient(135deg, #af70a5ea, #5b548a);
     color: white;
     margin: 100px auto 0;
+    margin-top: 20px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -31,7 +32,7 @@ body{
     background-color: #ebfffc;
     color: #555;
     padding: 10px 25px;
-    height: 100px;
+    height: 50px;
     border-radius: 20px;
     flex: 1;
     margin-right: 16px;
@@ -42,8 +43,8 @@ body{
     outline: 0;
     background-color: #ebfffc;
     color: #555;
-    border-radius: 50%;
-    height: 100px;
+    border-radius: 30px;
+    height: 50px;
     width: 100px;
     cursor: pointer;
 }
@@ -99,4 +100,24 @@ body{
     margin-left: 10px;
     margin-top: 10px;
     display: none;
+}
+
+main{
+    width: 90%;
+    max-width: 200px;
+    background: linear-gradient(135deg, #af70a5ea, #5b548a);
+    color: white;
+    margin: 10px auto 0;
+    border-radius: 100px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+main h1{
+    font-size: 20px;
+}
+
+main img{
+    width: 50px;
+    height: auto;
 }
