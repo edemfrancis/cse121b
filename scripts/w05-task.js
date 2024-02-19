@@ -24,6 +24,7 @@ const getTemples = async (temples) => {
     if (response.ok) {
         const data = await response.json();
         templeArray = data;
+        console.log(data)
         displayTemples(data);
     }
 }
